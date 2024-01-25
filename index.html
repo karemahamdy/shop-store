@@ -11,10 +11,10 @@
 
 <body>
     <!--start  nav-bar -->
-    <nav class="bg-black mx-auto">
+    <nav class="bg-black mx-auto shadow-lg">
         <div class="container p-8 flex justify-between items-center space-x-2">
             <div class="image bg-white">
-        <img class="logo" src="./assets/images/logo.png.webp">
+        <img class="logo" src="./assets/images/logo.png.webp" alt="logo">
     </div>
 
         <ul class="menu flex space-x-3 justify-center text-white">
@@ -37,10 +37,43 @@
      <!--end  nav-bar -->
 
      <!-- start home section -->
-     <section id="home">
-        
+     <section id="home" class="grid grid-cols-4 gap-3 grid-rows-1">
+        <div class="image-1 col-span-2">
+            <div class="text text-center flex justify-center flex-col space-y-3 min-h-screen" style="background-image: url(./assets/images/category-1.jpg.webp); background-position: cover;">
+                <h1 class="text-2xl">Womens fashion</h1>
+                <p class="text-gray-600 px-5">Sitamet, consectetur adipiscing elit, sed do eiusmod tempor incidid-unt labore edolore magna aliquapendisse ultrices gravida.</p>
+                <p class="font-bold text-red-800 hover:text-red-600">SHOP NOW</p>
+            </div>
+    
+    </div>
+    <div class="image-2">
+        <div class="text text-center flex justify-center flex-col space-y-1 mb-3" style="background-image: url(./assets/images/category-2.jpg.webp); height:50%">
+            <h1 class="text-2xl">Men’s fashion</h1>
+            <p class="text-gray-600">358 items</p>
+            <p class="font-bold text-red-800 hover:text-red-600">SHOP NOW</p>
+        </div>
+        <div class="text text-center flex justify-center flex-col space-y-1" style="background-image: url(./assets/images/category-4.jpg.webp); height:48%">
+            <h1 class="text-2xl">Cosmetics</h1>
+            <p class="text-gray-600">159 items</p>
+            <p class="font-bold text-red-800 hover:text-red-600">SHOP NOW</p>
+        </div>
+    </div>
+    <div class="image-2">
+        <div class="text text-center flex justify-center flex-col space-y-1 mb-3" style="background-image: url(./assets/images/category-3.jpg.webp); height:50%">
+            <h1 class="text-2xl">Kid’s fashion</h1>
+            <p class="text-gray-600">159 items</p>
+            <p class="font-bold text-red-800 hover:text-red-600">SHOP NOW</p>
+        </div>
+        <div class="text text-center flex justify-center flex-col space-y-1" style="background-image: url(./assets/images/category-5.jpg.webp); height:48% ">
+            <h1 class="text-2xl">Accessories</h1>
+            <p class=" text-gray-600">792 items</p>
+            <p class="font-bold text-red-800 hover:text-red-600">SHOP NOW</p>
+        </div>
+    </div>
      </section>
       <!-- end home section -->
+
+      
 </body>
 
 </html>
